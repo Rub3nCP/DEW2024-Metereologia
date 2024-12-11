@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteorología</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Meteorología</h1>
+
+        <label for="provincia-select">Provincia:</label>
+        <select id="provincia-select">
+            <option value="">Elige una provincia</option>
+        </select>
+    
+        <label id = "municipio-label" for="municipio-select" style="display: none;">Municipio:</label>
+        <select id="municipio-select" style="display: none;">
+            <option value="">Elige un municipio</option>
+        </select>
+
+    <section id="general-info">
+        <h2>El Tiempo</h2>
+        <div>
+            <h3>Previsión para hoy</h3>
+            <p id="today-info">Cargando...</p>
+        </div>
+        <div>
+            <h3>Previsión para mañana</h3>
+            <p id="tomorrow-info">Cargando...</p>
+        </div>
+    </section>
+
+</body>
+</html>
